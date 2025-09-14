@@ -91,25 +91,28 @@ pytest tests/ -v
 
 ---
 
-## 📜 License
+## 📚 Citation
 
-This repository is released under the **MIT License**.
+If you use this work in your research, please cite:
 
----
-
-##📚 Citation
-
-If you use this work in your research, please cite the following publication:
-
-Namdar, K., Mirjalili, S., Kim, S., Deniffel, D., Brunt, K., Celi, L. A., Cusimano, M., Tyrrell, P. (2024).
-Improving Pediatric Low-Grade Neuroepithelial Tumors Molecular Subtype Identification Using a Novel AUROC Loss Function for Convolutional Neural Networks.
-arXiv:2402.03547
+> **Khashayar Namdar**, Matthias W. Wagner, Cynthia Hawkins, Uri Tabori, Birgit B. Ertl-Wagner, Farzad Khalvati.  
+> *Improving Pediatric Low-Grade Neuroepithelial Tumors Molecular Subtype Identification Using a Novel AUROC Loss Function for Convolutional Neural Networks.*  
+> [arXiv:2402.03547](https://arxiv.org/abs/2402.03547)
 
 BibTeX:
+
+```bibtex
 @article{namdar2024auroc,
   title={Improving Pediatric Low-Grade Neuroepithelial Tumors Molecular Subtype Identification Using a Novel AUROC Loss Function for Convolutional Neural Networks},
-  author={Namdar, Khashayar and Mirjalili, Saeidehsadat and Kim, Sangwook and Deniffel, Dominik and Brunt, Keith and Celi, Leo Anthony and Cusimano, Michael and Tyrrell, Pascal},
+  author={Namdar, Khashayar and Wagner, Matthias W. and Hawkins, Cynthia and Tabori, Uri and Ertl-Wagner, Birgit B. and Khalvati, Farzad},
   journal={arXiv preprint arXiv:2402.03547},
   year={2024},
   url={https://arxiv.org/abs/2402.03547}
 }
+```
+
+---
+
+## 📜 License
+
+This repository is released under the **MIT License**.
