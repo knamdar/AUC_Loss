@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auc-loss"
+version = "0.1.0"
+description = "Differentiable AUC-based loss functions and stratified sampler for PyTorch"
+authors = [
+  { name = "Khashayar (Ernest) Namdar", email = "ernest.namdar@utoronto.ca" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["pytorch", "loss", "auc", "ranking", "machine-learning"]
+
+dependencies = [
+  "torch>=1.10",
+  "numpy>=1.20"
+]
+
+[project.urls]
+Homepage = "https://github.com/knamdar/AUC_Loss"
+Issues = "https://github.com/knamdar/AUC_Loss/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["auc_loss*"]
